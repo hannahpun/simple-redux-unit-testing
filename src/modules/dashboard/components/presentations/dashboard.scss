@@ -1,0 +1,40 @@
+$red: #c0392b;
+$black: #2d3436;
+$f-base: 18px;
+
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $f-base;
+    width: 260px;
+    label{
+        width: 100%;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+        color: #636e72;
+        background-color: #fff;
+        margin-bottom: 10px;
+    }
+    .form-control{
+        width: 100%;
+        border: 3px solid;
+        padding: 5px 10px;
+        font-size: $f-base*1.4;
+    }
+    .form-text{
+        margin-top: 5px;
+        display: none;
+    }
+
+    &.invalid{
+        color: $red;
+        .form-control{
+            border-color: $red;
+        }
+        .form-text{
+            display: block;
+        }
+    }
+}
