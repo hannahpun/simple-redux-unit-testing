@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`After login render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <h1
+    data-test="welcome-text"
+  >
+    Howdy, 
+     !
+  </h1>
+</div>
+`;
+
+exports[`Before login render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <div
+    className="form-group "
+    data-test="form-group"
+  >
+    <label
+      htmlFor="username"
+    >
+      Please Enter Your Username
+    </label>
+    <input
+      className="form-control"
+      id="username"
+      type="text"
+    />
+    <small
+      className="form-text text-muted"
+      data-test="form-text"
+    >
+      Wrong Username
+    </small>
+  </div>
+</div>
+`;
+
+exports[`before login render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <div
+    className="form-group "
+  >
+    <label
+      htmlFor="username"
+    >
+      Please Enter Your Username
+    </label>
+    <input
+      className="form-control"
+      data-test="input"
+      id="username"
+      type="text"
+    />
+    <small
+      className="form-text text-muted"
+      data-test="form-text"
+    >
+      Wrong Username
+    </small>
+  </div>
+</div>
+`;
+
+exports[`render before login render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <div
+    className="form-group "
+  >
+    <label
+      htmlFor="username"
+    >
+      Please Enter Your Username
+    </label>
+    <input
+      className="form-control"
+      data-test="input"
+      id="username"
+      type="text"
+    />
+    <small
+      className="form-text text-muted"
+      data-test="form-text"
+    >
+      Wrong Username
+    </small>
+  </div>
+</div>
+`;
+
+exports[`render render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <div
+    className="form-group "
+  >
+    <label
+      htmlFor="username"
+    >
+      Please Enter Your Username
+    </label>
+    <input
+      className="form-control"
+      data-test="input"
+      id="username"
+      type="text"
+    />
+    <small
+      className="form-text text-muted"
+      data-test="form-text"
+    >
+      Wrong Username
+    </small>
+  </div>
+</div>
+`;
+
+exports[`render without error 1`] = `
+<div
+  className="dashboard"
+  data-test="dashboard"
+>
+  <div
+    className="form-group "
+  >
+    <label
+      htmlFor="username"
+    >
+      Please Enter Your Username
+    </label>
+    <input
+      className="form-control"
+      data-test="input"
+      id="username"
+      type="text"
+    />
+    <small
+      className="form-text text-muted"
+      data-test="form-text"
+    >
+      Wrong Username
+    </small>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+describe('Before login', () => {
+    let wrapper;
+
+    beforeEach(() => {
+        wrapper = setup();
+    });
+
+    test('render without error', () => {
+        const appComponent = findByTestAttr(wrapper, 'dashboard');
+        expect(appComponent.exists()).toBe(true);
+    });
+    test('render <input> ', () => {
+        const appComponent = findByTestAttr(wrapper, 'form-group');
+        expect(appComponent.length).toBe(1);
+    });
+    test('does not render welcome text ', () => {
+        const appComponent = findByTestAttr(wrapper, 'welcome-text');
+        expect(appComponent.exists()).toBe(false);
+    });
+});
